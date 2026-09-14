@@ -1,0 +1,30 @@
+{
+  "name": "telnyx-cypress-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "stepDefinitions": [
+      "cypress/support/step_definitions/**/*.js"
+    ],
+    "json": {
+      "enabled": true,
+      "output": "cypress/cucumber-json/report.json"
+    }
+  },
+  "scripts": {
+    "test": "cypress run",
+    "test:mobile": "cypress run --env configFile=mobile --config viewportWidth=390,viewportHeight=844",
+    "report": "node generate-report.mjs"
+  },
+  "keywords": [],
+  "author": "Ernest Sosnovskyi",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^28.0.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.8",
+    "cypress": "^16.0.0",
+    "multiple-cucumber-html-reporter": "^4.3.0"
+  }
+}

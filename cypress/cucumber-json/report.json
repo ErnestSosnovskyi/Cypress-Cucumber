@@ -1,0 +1,971 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc001---checking-if-the-home-page-has-loaded-successfully",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "TC001 - Checking if the home page has loaded successfully",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 5321000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 60000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "I should see the header and main content",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "the H1 should not be empty",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc002---checking-the-transition-to-the-registration-page",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "TC002 - Checking the transition to the registration page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2689000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I accept cookies",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 6221000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I click the \"Sign up\" link",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 893000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "the URL should contain \"/sign-up\"",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should see the sign up form",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "I should see the \"Create your account\" heading",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc003---checking-the-validation-of-an-empty-registration-form",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "TC003 - Checking the validation of an empty registration form",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3335000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I visit the \"/sign-up\" page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 267000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I submit the main form",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 170000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "the URL should contain \"/sign-up\"",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 195000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I should see validation errors",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc004---checking-if-the-pricing-section-opens-on-the-main-page",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "TC004 - Checking if the pricing section opens on the main page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3125000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 404000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I accept cookies",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4387000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I click the \"Pricing\" link",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 374000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the URL should contain \"/pricing\"",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "the H1 should not be empty",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc005---checking-access-to-the-voice-api-page",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "TC005 - Checking access to the Voice API page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4498000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 30,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 376000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "I accept cookies",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4189000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I click the \"Voice API\" link",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 136000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "the URL should contain \"/voice-api\"",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc006---testing-the-\"talk-to-an-expert\"-button",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "TC006 - Testing the \"Talk to an expert\" button",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2356000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 36,
+            "name": "I visit the \"/voice-api\" page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 383000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "I accept cookies",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 347000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 38,
+            "name": "I click the \"Talk to an expert\" button",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 291000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "the URL should contain \"/contact-us\"",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc007---checking-the-redirect-to-the-authorization-portal",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "TC007 - Checking the redirect to the authorization portal",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 4054000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 42,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 57000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 43,
+            "name": "the \"Log in\" link should have an href containing \"portal.telnyx.com\"",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc008---checking-the-cookie-consent-banner",
+        "keyword": "Scenario",
+        "line": 45,
+        "name": "TC008 - Checking the Cookie Consent Banner",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2498000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 46,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 47,
+            "name": "I should see the cookie banner",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 319000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 48,
+            "name": "I accept cookies",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 185000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 49,
+            "name": "the cookie banner should disappear",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc009---checking-the-\"terms-and-conditions-of-service\"-link",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "TC009 - Checking the \"Terms and Conditions of Service\" link",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3586000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 52,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 55000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "I scroll to the footer",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2496000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "I click the \"Terms and Conditions\" link",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 74000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "the URL should contain \"/terms-and-conditions\"",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc010---checking-for-links-to-social-networks",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "TC010 - Checking for links to social networks",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 2769000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 58,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 40000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 59,
+            "name": "I scroll to the footer",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 51000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "the LinkedIn, X, and Facebook links should open in a new tab",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc011---contact-us:-checking-validation-of-empty-form-submission",
+        "keyword": "Scenario",
+        "line": 62,
+        "name": "TC011 - Contact Us: Checking validation of empty form submission",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3946000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 63,
+            "name": "I visit the \"/contact-us\" page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 64,
+            "name": "I accept cookies",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "I submit the contact form",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "I should see contact form validation errors",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc012---contact-us:-interacting-with-the-\"how-can-we-help?\"-dropdown",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "TC012 - Contact Us: Interacting with the \"How can we help?\" dropdown",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3362000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 69,
+            "name": "I visit the \"/contact-us\" page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 70,
+            "name": "I select \"Support\" from the Reason for Contact dropdown",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 71,
+            "name": "the dropdown value should be set",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc013---contact-us:-entering-an-invalid-email-address",
+        "keyword": "Scenario",
+        "line": 73,
+        "name": "TC013 - Contact Us: Entering an invalid email address",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3319000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 74,
+            "name": "I visit the \"/contact-us\" page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 309000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "I fill in First Name with \"Test\"",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 265000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "I fill in Last Name with \"User\"",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 300000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "I fill in Email with \"invalid-email-without-at.com\"",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 153000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "I submit the contact form",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 32000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 79,
+            "name": "I should see contact form validation errors",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc014---footer:-navigating-to-the-our-network-page",
+        "keyword": "Scenario",
+        "line": 81,
+        "name": "TC014 - Footer: Navigating to the Our Network page",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3624000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 82,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "I accept cookies",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            },
+            "arguments": [],
+            "keyword": "When ",
+            "line": 84,
+            "name": "I scroll to the footer",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3852000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 85,
+            "name": "I click the \"Our Network\" link",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 89000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 86,
+            "name": "the URL should contain \"/our-network\"",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 25000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 87,
+            "name": "the H1 should not be empty",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "telnyx-e2e-automation-tests;tc015---mobile-viewport:-checking-the-hamburger-menu-rendering",
+        "keyword": "Scenario",
+        "line": 89,
+        "name": "TC015 - Mobile Viewport: Checking the Hamburger Menu rendering",
+        "steps": [
+          {
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            },
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 90,
+            "name": "I set the viewport to mobile",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 3365000000
+            },
+            "arguments": [],
+            "keyword": "And ",
+            "line": 91,
+            "name": "I visit the home page",
+            "match": {
+              "location": "not available:0"
+            }
+          },
+          {
+            "result": {
+              "status": "passed",
+              "duration": 37000000
+            },
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 92,
+            "name": "I should see the hamburger menu",
+            "match": {
+              "location": "not available:0"
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "telnyx-e2e-automation-tests",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Telnyx E2E Automation Tests",
+    "tags": [],
+    "uri": "cypress\\e2e\\features\\telnyx.feature"
+  }
+]

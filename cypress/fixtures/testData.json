@@ -1,0 +1,16 @@
+{
+  "urls": {
+    "signUp": "/sign-up",
+    "pricing": "/pricing",
+    "voiceApi": "/voice-api",
+    "contactUs": "/contact-us",
+    "portal": "portal.telnyx.com",
+    "terms": "/terms-and-conditions",
+    "ourNetwork": "/our-network"
+  },
+  "credentials": {
+    "firstName": "Test",
+    "lastName": "User",
+    "invalidEmail": "invalid-email-without-at.com"
+  }
+}
