@@ -13,9 +13,10 @@
     }
   },
   "scripts": {
-    "test": "cypress run",
-    "test:mobile": "cypress run --env configFile=mobile --config viewportWidth=390,viewportHeight=844",
-    "report": "node generate-report.mjs"
+    "cy:run": "cypress run",
+    "cy:run:mobile": "cypress run --config-file cypress.config.mobile.js",
+    "report": "node generate-report.mjs",
+    "test": "npm run cy:run && npm run report"
   },
   "keywords": [],
   "author": "Ernest Sosnovskyi",

@@ -83,7 +83,9 @@ Then("I should see the {string} heading", (headingText) => {
 });
 
 Then("I should see validation errors", () => {
-  cy.get('[aria-invalid="true"], [class*="error"], .c-kMqa-h').should("exist");
+  cy.get(
+    '[aria-invalid="true"], form:invalid, [role="alert"], [data-testid*="error"]',
+  ).should("exist");
 });
 
 Then(
